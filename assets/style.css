@@ -1,0 +1,89 @@
+/*setting the CSS for body*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    background-color:#bde0fe ;
+  }
+  
+  .dailyPlan {
+    
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    /*border-left: 1px solid black;*/
+    padding: 10px;
+  
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: #4361ee;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid darkblue;
+  }
+  
+  .description {
+    white-space: pre-wrap;
+  }
+  .col-md-2 {
+    padding-top: 15px;
+    height: 80px;
+    text-align: center;
+    border-radius: 15px,15px;
+    background-color: whitesmoke;
+    color: #000000;
+    border: 4px solid #1b263b;
+    
+    
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 3px solid #1b263b;
+    border-radius: 15px;
+  }
+  
+  .hour {
+    background-color: whitesmoke;
+    color: #000000;
+    border-top: 1px dashed #000000;
+    
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+    /*color: white;*/
+  }
+  
+  .present {
+    background-color: #ff6961;
+    /*color: white;*/
+  }
+  
+  .future {
+    background-color: #77dd77;
+    /*color: white;*/
+  }
+  
+  .col-md-1 {
+    padding-top: 15px;
+    height: 80px;
+    border: 4px solid darkblue;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #4361ee;
+    color: #bde0fe;
+  }
+  
+  
+  .col-md-1 i:hover {
+    font-size: 30px;
+    transition: all 0.4s ease-in-out;
+  }
